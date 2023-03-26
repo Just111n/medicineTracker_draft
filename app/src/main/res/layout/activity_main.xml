@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/profilepic"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Justin Looi"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/EditProfileButton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton"
+        android:padding="15dp"
+        android:text="Edit Profile"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome Back Justin. What would you like to do?"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonMedicineTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background = "@drawable/roundedbutton"
+        android:text="Medicine Time"
+        android:drawableLeft="@drawable/schedule_icon"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/buttonScanMedicine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background = "@drawable/roundedbutton"
+        android:text="Scan Medicine"
+        android:drawableLeft="@drawable/scan_icon"
+        android:layout_margin="20dp"/>
+
+
+    <Button
+        android:id="@+id/buttonprescriptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background = "@drawable/roundedbutton"
+        android:text="Prescriptions"
+        android:drawableLeft="@drawable/prescriptions_icon"
+        android:layout_margin="20dp"/>
+</LinearLayout>
