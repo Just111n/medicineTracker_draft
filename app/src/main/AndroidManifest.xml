@@ -15,6 +15,7 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
+            android:label="@string/home_view_name"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ReminderActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/reminder_view_name"></activity>
     </application>
 
 </manifest>

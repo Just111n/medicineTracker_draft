@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pillDashboard</string>
+    <string name="home_view_name">Home</string>
+    <string name="reminder_view_name">Reminders</string>
+    <string name="drug_view_name">Drug</string>
+    <string name="add_reminder_view">Add Reminder</string>
+    <string name="welcome_message">Welcome Back %1$s. What would you like to do?</string>
 </resources>
